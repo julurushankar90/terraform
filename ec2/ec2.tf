@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
     project = "roboshop"
   }
 }
-
+    
 resource "aws_security_group" "allow_tls" {
   name        = "allow-all-terraform" # this is for aws account
   description = "Allow TLS inbound traffic and all outbound traffic"
